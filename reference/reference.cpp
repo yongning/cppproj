@@ -8,6 +8,7 @@ int main()
     std::cout << "refVal is " << refVal << std::endl;
     refVal = val2;
     std::cout << "after reassignment refVal is " << refVal << std::endl;
+    std::cout << "after reassignment val is " << val << std::endl;
 
     return 0;
 
